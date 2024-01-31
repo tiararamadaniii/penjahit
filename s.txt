@@ -1,0 +1,6 @@
+$routes->setDefaultNamespace('App\Controllers');
+$routes->setDefaultController('home');
+$routes->setDefaultMethod('mhs');
+$routes->setTranslateURIDashes(false);
+$routes->set404Override();
+$routes->setAutoRoute(true);
